@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/kh4"
+        android:layout_marginTop="90dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/app_mountgo"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        />
+
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="300dp"
+          android:layout_marginTop="10dp"
+          />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="@string/see_hotel_a"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="16sp"
+        />
+    
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="42dp"
+         android:id="@+id/statrhgj"
+         android:text="@string/start_edf"
+         android:layout_marginHorizontal="40dp"
+         android:layout_marginTop="40dp"
+         />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/firt_a"
+    >
+      <fragment
+        android:id="@+id/firt_a"
+        android:name="com.artem.mitrofanov.middle.hotelcalifornia.fragment.FragmentOne"
+        android:label="@string/firt_a_text"
+        tools:layout="@layout/fragment_one"/>
+
+
+            <fragment
+        android:id="@+id/firt_b"
+        android:name="com.artem.mitrofanov.middle.hotelcalifornia.fragment.FragmentTwo"
+        android:label="@string/firt_b_text"
+        tools:layout="@layout/fragment_two"/>
+
+
+</navigation>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HotelCalifornia</string>
+    <string name="app_mountgo">MOUNTGO</string>
+    <string name="see_hotel_a">Просмотр и бронирование отелей</string>
+    <string name="start_edf">Начать</string>
+    <string name="add_hote">Добавить отель</string>
+    <string name="nma">Название</string>
+    <string name="nmacit">Город</string>
+    <string name="nmapdho">Телефон</string>
+    <string name="aaa">Детали тура</string>
+    <string name="bbb">Об отеле</string>
+    <string name="aa_go_buy">Купить</string>
+    <string name="firt_a_text">Fragment_1</string>
+    <string name="firt_b_text">Fragment_2</string>
+    <string name="vip_sdf">Тип тура</string>
+    <string name="start_tdf">Начало тура</string>
+     <string name="end_tdf">Окончание тура</string>
+    <string name="price_tdf">Цена номера</string>
+</resources>

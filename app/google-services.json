@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "985654301204",
+    "project_id": "hotel-65625",
+    "storage_bucket": "hotel-65625.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985654301204:android:6caf98888d2a3621a14d01",
+        "android_client_info": {
+          "package_name": "com.artem.mitrofanov.middle.hotelcalifornia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5eqZTA6QYVphcG273fzZaZ3FvSY99q24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
