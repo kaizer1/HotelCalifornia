@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">HotelCalifornia</string>
-    <string name="app_mountgo">MOUNTGO</string>
+    <string name="app_name">RoamRadar</string>
+    <string name="app_mountgo">RoamRadar</string>
     <string name="see_hotel_a">Просмотр и бронирование отелей</string>
     <string name="start_edf">Начать</string>
     <string name="add_hote">Добавить отель</string>
@@ -16,4 +16,18 @@
     <string name="start_tdf">Начало тура</string>
      <string name="end_tdf">Окончание тура</string>
     <string name="price_tdf">Цена номера</string>
+    <string name="name_hot">Название отеля</string>
+    <string name="city_namedf">Город</string>
+    <string name="steer_sdkfj">Адрес</string>
+    <string name="phonererer">Телефон</string>
+    <string name="b_toute">Купить тур</string>
+    <string name="zadfj">Подать заявку</string>
+    <string name="sdlfk">Покупатель тура</string>
+
+    <string name="hint_name">Имя</string>
+     <string name="hint_suname">Фамилия</string>
+     <string name="hint_phone">Номер телефона</string>
+     <string name="hint_date_birst">Дата рождения</string>
+     <string name="hint_passport">Паспорт</string>
+
 </resources>

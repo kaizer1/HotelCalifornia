@@ -25,6 +25,7 @@
         <activity android:name=".addhotels" android:exported="true"/>
         <activity android:name=".See_allTour" android:exported="true"/>
         <activity android:name="TwoFragment" android:exported="true"/>
+        <activity android:name=".ButTourFinal" android:exported="true" />
     </application>
 
 </manifest>

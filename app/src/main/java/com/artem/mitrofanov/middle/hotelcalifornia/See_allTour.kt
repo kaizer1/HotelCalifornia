@@ -39,13 +39,7 @@ class See_allTour : AppCompatActivity() {
 
                       val map: HashMap<String, String> = HashMap()
 
-
-                   // println( " my id == ${docus.id} " )
-
-
                      map["ID"] = docus.id
-
-
 
                      imageArra.add(docus.data["image_tour"].toString())
 
