@@ -33,7 +33,6 @@ class FragmentOne : Fragment() {
         val myId = share.getString("id_cur", "")
          println(" my id == ${myId}")
 
-           val texTourType = root.findViewById<TextView>(R.id.detail_vip)
            val startDateTour = root.findViewById<TextView>(R.id.start_vip)
            val endTourDate = root.findViewById<TextView>(R.id.final_vip)
            val priceTour  = root.findViewById<TextView>(R.id.price_vip)
@@ -42,7 +41,7 @@ class FragmentOne : Fragment() {
         db.collection("Tours").document(myId.toString())
             .get()
             .addOnSuccessListener {
-                texTourType.text = it.data!!["tourType"].toString()
+
                 startDateTour.text = it.data!!["start"].toString()
                 endTourDate.text = it.data!!["end"].toString()
                 priceTour.text = it.data!!["roomPrice"].toString()

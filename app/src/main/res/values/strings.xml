@@ -15,7 +15,7 @@
     <string name="vip_sdf">Тип тура</string>
     <string name="start_tdf">Начало тура</string>
      <string name="end_tdf">Окончание тура</string>
-    <string name="price_tdf">Цена номера</string>
+    <string name="price_tdf">Цена тура</string>
     <string name="name_hot">Название отеля</string>
     <string name="city_namedf">Город</string>
     <string name="steer_sdkfj">Адрес</string>

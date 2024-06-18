@@ -41,6 +41,7 @@ class FragmentTwo : Fragment() {
            val cityHitel = root.findViewById<TextView>(R.id.city_djsfdf)
            val addresJotl = root.findViewById<TextView>(R.id.addresskdf)
            val phonesdfskdl  = root.findViewById<TextView>(R.id.phoetiddd)
+            val texTourType = root.findViewById<TextView>(R.id.detail_vip)
 
 
         db.collection("Tours").document(myId.toString())
@@ -48,6 +49,8 @@ class FragmentTwo : Fragment() {
             .addOnSuccessListener {it ->
 
              // imageArra.add(docus.data["image_tour"].toString())
+
+                 texTourType.text = it.data!!["tourType"].toString()
 
                      val kdfj = it.data?.get("hotel") as HashMap<*, *>
 
